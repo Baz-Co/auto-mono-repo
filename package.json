@@ -1,0 +1,22 @@
+{
+  "name": "auto-mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baz-Co/auto-mono-repo.git"
+  },
+  "author": "Baz-Co <sheh@bazco.de> (https://bazco.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Baz-Co/auto-mono-repo/issues"
+  },
+  "homepage": "https://github.com/Baz-Co/auto-mono-repo#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}

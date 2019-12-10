@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add unique-random-array
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\BazAg\bin;C:\Users\BazAg\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\BazAg\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\HashiCorp\Vagrant\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0;%SYSTEMROOT%\System32\OpenSSH;C:\Users\BazAg\AppData\Local\Microsoft\WindowsApps;C:\Users\BazAg\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/:_authToken=a241b831-c374-4d49-9394-73ef69e03317/unique-random-array: Request "https://registry.npmjs.org/:_authToken=a241b831-c374-4d49-9394-73ef69e03317/unique-random-array" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\BazAg\AppData\Roaming\nvm\v12.6.0\node_modules\yarn\lib\cli.js:66839:18)
+      at Request.self.callback (C:\Users\BazAg\AppData\Roaming\nvm\v12.6.0\node_modules\yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:203:13)
+      at Request.<anonymous> (C:\Users\BazAg\AppData\Roaming\nvm\v12.6.0\node_modules\yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:203:13)
+      at IncomingMessage.<anonymous> (C:\Users\BazAg\AppData\Roaming\nvm\v12.6.0\node_modules\yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:291:20)
+      at IncomingMessage.emit (events.js:208:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+npm manifest: 
+  {
+    "name": "auto-mono-repo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Baz-Co/auto-mono-repo.git"
+    },
+    "author": "Baz-Co <sheh@bazco.de> (https://bazco.de/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Baz-Co/auto-mono-repo/issues"
+    },
+    "homepage": "https://github.com/Baz-Co/auto-mono-repo#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
