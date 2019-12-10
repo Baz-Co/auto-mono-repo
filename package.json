@@ -1,14 +1,15 @@
 {
   "name": "auto-mono-repo",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Baz-Co/auto-mono-repo.git"
+    "url": "https://github.com/Baz-Co/auto-mono-repo.git"
   },
   "author": "Baz-Co <sheh@bazco.de> (https://bazco.de/)",
   "license": "MIT",
@@ -18,5 +19,13 @@
   "homepage": "https://github.com/Baz-Co/auto-mono-repo#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.2",
+    "semantic-release": "^15.13.31"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
