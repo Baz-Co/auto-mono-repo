@@ -27,9 +27,8 @@ jobs:
         skip_cleanup: true
         script:
           - npx semantic-release
-
-            on:
+        on:
+          branches:
+            only:
+              - master
         # repo: Baz-Co/auto-mono-repo
-        branches:
-          only:
-            - master
