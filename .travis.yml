@@ -28,7 +28,7 @@ jobs:
         script:
           - semantic-release
         on:
+          repo: Baz-Co/auto-mono-repo
           branches:
             only:
               - master
-        # repo: Baz-Co/auto-mono-repo
