@@ -29,4 +29,4 @@ jobs:
           - semantic-release
         on:
           repo: Baz-Co/auto-mono-repo
-          branches: master
+          branch: master
