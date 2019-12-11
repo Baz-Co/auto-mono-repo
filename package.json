@@ -28,9 +28,6 @@
     "mocha": "6.2.2",
     "semantic-release": "^15.13.31"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
