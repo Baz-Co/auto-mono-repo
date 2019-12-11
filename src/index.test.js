@@ -27,5 +27,14 @@ describe('names', function() {
       var randomItem = names.random()
       expect(names.all).to.include(randomItem)
     })
+
+    it('should return an array of random items if passed a number', function() {
+      var randomItems = names.random(2)
+      expect(Array.isArray(randomItems)).to.be.true
+      expect(randomItems).to.have.length(2)
+      randomItems.forEach(function(item) {
+        expect(names.all).to.include(item)
+      })
+    })
   })
 })
